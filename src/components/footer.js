@@ -26,7 +26,7 @@ export default () => {
 
         <div className="six columns right-cols">
           <div className="row">
-            <div className="columns">
+            {/*             <div className="columns">
               <FontAwesomeIcon icon={faMapMarkerAlt} />
               <h3 className="address">Come Visit</h3>
               <p>
@@ -35,10 +35,10 @@ export default () => {
                 {address.line3}
               </p>
             </div>
-
+ */}
             <div className="columns">
               <FontAwesomeIcon icon={faUsers} />
-              <h3 className="social">socialize</h3>
+              <h3 className="social">Social Media</h3>
               <ul>
                 {social.map(mySocial =>
                   <li><a href={mySocial.url}>

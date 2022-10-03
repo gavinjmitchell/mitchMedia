@@ -26,7 +26,7 @@ module.exports = {
 
     /* Configure the navigation menu */
     menuItems: [
-      { path: 'features', label: 'Features' },
+      { path: 'features', label: 'About' },
       //      { path: 'pricing', label: 'Pricing' },
       //      { path: 'screenshots', label: 'Screenshots' },
       //      { path: 'testimonials', label: 'Testimonials' },
@@ -59,7 +59,7 @@ module.exports = {
     /* Logo and text to show in footer */
     footer: {
       logo: `/images/footer-logo.png`,
-      text: `Some text.`,
+      text: `Music, media & technology.`,
     },
 
     /* Address and contact info to show in footer */
